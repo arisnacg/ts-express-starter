@@ -5,5 +5,5 @@ import { Request, Response } from "express"
  * Home page.
  */
 export let index = async (req: Request, res: Response) => {
-  res.render("index", { title: "Express" })
+  res.send("Hello There")
 }

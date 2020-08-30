@@ -1,17 +1,16 @@
 {
-    "extends": "tslint:recommended",
-    "rules": {
-        "no-console": false,
-        "variable-name": [
-            true,
-            "ban-keywords",
-            "check-format",
-            "allow-leading-underscore"
-        ]
-    },
-    "linterOptions": {
-        "exclude": [
-            
-        ]
-    }
+  "extends": "tslint:recommended",
+  "rules": {
+    "no-console": false,
+    "semi": ["never"],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ]
+  },
+  "linterOptions": {
+    "exclude": []
+  }
 }
